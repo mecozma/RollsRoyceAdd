@@ -13,18 +13,66 @@ html {
   /* My styles*/
   body {
       background-color: black;
+      font: normal 100% Cambria, Georgia, serif;
+  }
+
+  .page {
+      margin: 36px auto;
+      width: 90%;
   }
 
   .container {
-      width: 960px;
+      width: 93,75%;/* 900px / 960px */
       margin: 0 auto;
       background-color: #FCf0DA;
+      padding: 36px;
   }
 
   img {
       width: 100%;
   }
 
-  li {
+  figure figcaption {
+      text-align: right;
+      margin-right: 36px;
+  }
+
+  h1 {
+      font-size: 2em;/* 32px / 16px*/
+      font-weight: lighter;
+      text-align: center;
+      margin-top: 36px;
+      margin-bottom: 26px;
+  }
+
+  h2 {
+      font-size: 1.5em;
+      text-align: center;
+      font-style: italic;
+      margin-bottom: 26px;
+  }
+  ol {
+    column-width: 20em;
+    column-gap: 36px;
+  }
+
+  ol li {
+      font-size: 1em;
       list-style-type: decimal;
+      text-align: justify;
+      margin-bottom: 6px;
+      line-height: 1.5;
+  }
+
+  ol li:last-child {
+      list-style-type: none;
+      text-indent: 16px;
+  }
+
+  footer {
+      text-align: right;
+  }
+
+  footer h3 {
+      font-size: 1.125em;
   }
